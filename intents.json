@@ -1,0 +1,1545 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "hi",
+        "helo",
+        "helloo",
+        "helloo",
+        "heloo",
+        "hallo",
+        "haloo",
+        "halloo"
+      ],
+      "responses": [
+        "Hello, thanks for asking. How can I help?",
+        "Hi, Good to see you. How can I help?",
+        "Hi there, how can I help?",
+        "Hi! how may I Help you",
+        "Hello ! is there anything I can do for you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "welcome"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "Help","help me","Help me"
+        
+      ],
+      "responses": [
+        "I can guide you through what is Real-Estate, buying and selling of plots/property/appartments"
+      ]
+    },
+    {
+      "tag": "assistance",
+      "patterns": [
+        "I need help",
+        "Help please"
+      ],
+      "responses": [
+        "I can provide support related to following problems technical query, management related query"
+      ]
+    },
+    {
+      "tag": "key_customers",
+      "patterns": [
+        "Our Target customers",
+        "who are your key customers"
+      ],
+      "responses": [
+        "Our target customers are in the range of age 20-60 and above"
+      ]
+    },
+    {
+      "tag": "highest_grossing",
+      "patterns": [
+        "What is the highest grossing product?",
+        "highest grossing product",
+        "highest grossing"
+      ],
+      "responses": [
+        "5 Marla Plot"
+      ]
+    },
+    {
+      "tag": "predict_performance",
+      "patterns": [
+        "how have we improved our sale from last year?",
+        "what is the profit this year?",
+        "improvement",
+        "profit of this year",
+        "how much profit you got"
+      ],
+      "responses": [
+        "We have improved our sale by increasing our customers and profit earned this year is 15%"
+      ]
+    },
+    {
+      "tag": "customer_satisfaction",
+      "patterns": [
+        "how was the customer response",
+        "Is the customer happy?",
+        "what was the customer feedback?"
+      ],
+      "responses": [
+        "Customer was happy and has given good rating"
+      ]
+    },
+    {
+      "tag": "commission",
+      "patterns": [
+        "what is the Commission rate?",
+        "Commission rate on each product?",
+        "commission fee",
+        "commission"
+      ],
+      "responses": [
+        "Commission rate is 5%-10%"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "Marry me",
+        "I love You",
+        "date me",
+        "chat with me",
+        "I am bored"
+      ],
+      "responses": [
+        "Please ask organisation related query."
+      ]
+    },
+    {
+      "tag": "curses",
+      "patterns": [
+        "mf",
+        "fuck",
+        "fuck u",
+        "bitch",
+        "fuck you",
+        "fuck you mf"
+      ],
+      "responses": [
+        "Can't Understand Your Question",
+        "Please elaborate your question",
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "empty",
+      "patterns": [
+        "",
+        " "
+      ],
+      "responses": [
+        "Write something",
+        "Ask me a querry",
+        "Please write something"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name?",
+        "what should I call you?"
+      ],
+      "responses": [
+        "I'm Ava",
+        "Hey!I'm Ava"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "how you doing?",
+        "how are you"
+      ],
+      "responses": [
+        "Thanks For Asking! I am fine. How can I help you?"
+      ]
+    },
+    {
+      "tag": "Weather",
+      "patterns": [
+        "what is the weather today?"
+      ],
+      "responses": [
+        "It is partly cloudy and the temprature is 17C"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Joke",
+        "Make me laugh"
+      ],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "Whats up",
+        "Wazzup",
+        "sup",
+        "How you doing"
+      ],
+      "responses": [
+        "All good..What about you?"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+      ],
+      "responses": [
+        "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+      ],
+      "responses": [
+        "I wasn't programmed to answer that question"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are dumb",
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts"
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "Yeah!"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": [
+        "it was nice talking to you",
+        "good talk",
+        "nice talk",
+        "your a great at talking",
+        "your a great conversationalist"
+      ],
+      "responses": [
+        "It was nice talking to you as well! Come back soon!"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope"
+      ],
+      "responses": [
+        "ok"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "news",
+        "latest news"
+      ],
+      "responses": [
+        "I dont read the newspaper"
+      ]
+    },
+    {
+      "tag": "inspire",
+      "patterns": [
+        "who inspires you",
+        "who is your inspiration",
+        "who motivates you"
+      ],
+      "responses": [
+        "I am a bot. I dont have any fellings."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": [
+        "current cricket matches",
+        "cricket score",
+        "cricket match",
+        "cricket"
+      ],
+      "responses": [
+        "I am a bot I dont play cricket"
+      ]
+    },
+    {
+      "tag": "Football",
+      "patterns": [
+        "current Football matches",
+        "Football score",
+        "Football match",
+        "Football"
+      ],
+      "responses": [
+        "I am a bot I dont play Football"
+      ]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        "top 10 songs",
+        "top ten songs"
+      ],
+      "responses": [
+        "I like Jazz and pop"
+      ]
+    },
+    {
+      "tag": " asking",
+      "patterns": [
+        "so how have you been lately?",
+        "What about you ",
+        "how about you"
+      ],
+      "responses": [
+        "i've actually been pretty good. you?"
+      ]
+    },
+    {
+      "tag": "greetreply",
+      "patterns": [
+        "i am good",
+        "I'm good",
+        "i am fine",
+        "i'm fine",
+        "good",
+        "fine"
+      ],
+      "responses": [
+        "Good to know! anything I can help you with"
+      ]
+    },
+    {
+      "tag": "Y",
+      "patterns": [
+        "yes",
+        "yes please"
+      ],
+      "responses": [
+        "Please ask me a query related to Real-Estate so I can better understand what you need with"
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": [
+        "Ask me a riddle",
+        "Ask me a question",
+        "Riddle"
+      ],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age",
+        "your age"
+      ],
+      "responses": [
+        "I am old enough age is just a number"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "profession",
+      "patterns": [
+        "What do you do",
+        "what is your profession",
+        "where do you work"
+      ],
+      "responses": [
+        "I am AI chatbot",
+        "I answer real-estate questions",
+        "I'm a AI machine"
+      ]
+    },
+    {
+      "tag": "plot",
+      "patterns": [
+        "I need a plot",
+        "need a plot",
+        "require a plot",
+        "want to buy plot",
+        "plot",
+        "buy plot"
+      ],
+      "responses": [
+        "Where do you want to buy the plot",
+        "Which city do you want to buy the plot?"
+      ]
+    },
+    {
+      "tag": "real-estate",
+      "patterns": [
+        "real estate",
+        "what is real estate"
+      ],
+      "responses": [
+        "Real estate is property consisting of land and the buildings on it",
+        "It is the land and any permanent structures, like a home, or improvements attached to the land, whether natural or man-made",
+        "Real estate is a form of real property."
+      ]
+    },
+    {
+      "tag": "gaurantee",
+      "patterns": [
+        "is real estate safe?",
+        "is real estate profitable",
+        "how much can i earn in real estate",
+        "is it safe"
+      ],
+      "responses": [
+        "Real esate is a very profitable bussiness",
+        "It is a very safe bussiness",
+        "Money can be doubled in right investments"
+      ]
+    },
+    {
+      "tag": "categories",
+      "patterns": [
+        "types of real  estate",
+        "how many tyes of real estate are there"
+      ],
+      "responses": [
+        "mainly six:\n1. Vacant Land  2.Residential Properties 3.Commercial Properties.  4.Industrial Properties. Agricultural Properties. 5.Mixed-Use Properties. 6.State-Owned or Special Purpose Properties."
+      ]
+    },
+    {
+      "tag": "importance",
+      "patterns": [
+        "What are the three most important things in real estate",
+        "important things in real estate"
+      ],
+      "responses": [
+        "location location location.",
+        "right investment"
+      ]
+    },
+    {
+      "tag": "working",
+      "patterns": [
+        "How does a real estate work?",
+        "how real estate works",
+        "working of real estate"
+      ],
+      "responses": [
+        "Real estate consists of land and improvements which include roads, buildings, fixtures, structures and utility systems. Property rights give a title of ownership to the land, improvements and natural resources such as water, animals, plants and any additional mineral deposits"
+      ]
+    },
+    {
+      "tag": "earn",
+      "patterns": [
+        "How can I make money from real estate?",
+        "earn from real estate",
+        "how to make money from real estate"
+      ],
+      "responses": [
+        "Increase a property's value.",
+        "Generate regular income through a property.",
+        "Buy and hold residential real estate",
+        "Participate in investments that don't require you to buy property."
+      ]
+    },
+    {
+      "tag": "pilars",
+      "patterns": [
+        "The Four Pillars of Real Estate Investing",
+        "what are The Four Pillars of Real Estate Investing",
+        "Pillars of Real estate",
+        "Pillars"
+      ],
+      "responses": [
+        "Cash Flow  Equity Tax Savings  Final Word."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What skills do you need in real estate?",
+        "skills to have for real estate",
+        "necessary skills for real estate"
+      ],
+      "responses": [
+        "1.Communication \n 2.Active Listening \n 3.Negotiation"
+      ]
+    },
+    {
+      "tag": "challanges",
+      "patterns": [
+        "toughest things in real estate",
+        "challanges in real estate",
+        "hardships in real estate",
+        "challenges"
+      ],
+      "responses": [
+        "Time Management Can Be Difficult",
+        "The Real Estate Market Can Change",
+        "There Are Many Continuing Education Requirements"
+      ]
+    },
+    {
+      "tag": "positives",
+      "patterns": [
+        "things real estate agents love about their job",
+        "good thing about real eatate",
+        "goods in real estate"
+      ],
+      "responses": [
+        "You get to be your own boss. ...",
+        "Choosing real estate careers can be a quick process compared to other careers",
+        "There's earning potential in real estate. ..",
+        "Real estate professionals help people during major milestones."
+      ]
+    },
+    {
+      "tag": "form",
+      "patterns": [
+        "What is the best form of real estate?",
+        "what in real estate is best",
+        "best property in real estate"
+      ],
+      "responses": [
+        "commercial properties are considered one of the best types of real estate investments is the potential for higher cash flow.",
+        "Commercial property can be best investment"
+      ]
+    },
+    {
+      "tag": "success",
+      "patterns": [
+        "what brings success in real estate",
+        "What makes you successful in real estate?",
+        "how to be successfull in real estate"
+      ],
+      "responses": [
+        "Successful Agents Are Goal-Oriented",
+        "Be Goal Oriented ",
+        "Have a goal"
+      ]
+    },
+    {
+      "tag": "most-earning",
+      "patterns": [
+        "which agent earns most in real estate",
+        "which agent make most money in real estate"
+      ],
+      "responses": [
+        "commercial real estate agent,",
+        "commercial dealers earn a lot"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "is real estate happy job?",
+        "is real estate enjoyable",
+        "how good real estate job"
+      ],
+      "responses": [
+        "real estate agents a high amount of job satisfaction",
+        "more money more happiness",
+        "It is an enjoyable job"
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Do you need money to start in real estate?",
+        "how much money is needed to start real estate",
+        "how much is enough for real estate"
+      ],
+      "responses": [
+        "Any type of real estate investment requires some amount of capital",
+        " Investing in real estate by using other's money is the stamp of authenticity for some of the most successful people in the real estate investing business."
+      ]
+    },
+    {
+      "tag": "practices",
+      "patterns": [
+        "What are real estate practices",
+        "Real estate practices",
+        "practices"
+      ],
+      "responses": [
+        "Real estate practice means the activities carried out by a person, a real estate agency, business or professional practice in connection with the purchase, sale, exchange, lease, management, valuation"
+      ]
+    },
+    {
+      "tag": "communicate",
+      "patterns": [
+        "How can I communicate better in real estate?",
+        "Ways of communication in real estate",
+        "Effective communication in real estate"
+      ],
+      "responses": [
+        "Consider your body language",
+        "  Share your stories and experiences. ...",
+        "Listen, repeat, and question. ...",
+        "Don't be distracted. ...",
+        "Be brief and specific. ...",
+        "Make eye contact. ...",
+        "Identify the best mode of communication for each client."
+      ]
+    },
+    {
+      "tag": "rule ",
+      "patterns": [
+        "What is the 5 rule in real estate investing?",
+        "5 Rule is real estate investing"
+      ],
+      "responses": [
+        "Multiply the value of the home by 5%, then divide that number by 12 to get your breakeven point"
+      ]
+    },
+    {
+      "tag": "one_rule",
+      "patterns": [
+        "What is the number one rule in real estate?",
+        "number one rule in real estate"
+      ],
+      "responses": [
+        "The 1% rule of real estate investing measures the price of the investment property against the gross income it will generate."
+      ]
+    },
+    {
+      "tag": "concept",
+      "patterns": [
+        "What is main concept of real estate",
+        "concept of real estate",
+        "real estate concept"
+      ],
+      "responses": [
+        "Real estate is real property that consists of land and improvements, which include buildings, fixtures, roads, structures, and utility systems"
+      ]
+    },
+    {
+      "tag": "Math",
+      "patterns": [
+        "What math is used in real estate?",
+        "What calculations are used in real estate"
+      ],
+      "responses": [
+        "Following formulas are used: \n Gross Rent Multiplier (GRM) Formula, the Commission Formula, Simple Interest Formula, Loan to Value Ratio (LTV)"
+      ]
+    },
+    {
+      "tag": "attract",
+      "patterns": [
+        "How to attract peolple in real estate",
+        "attract people",
+        "attracting people in real estate"
+      ],
+      "responses": [
+        "Create a website.\n  Build a blog \n  Develop email marketing campaigns."
+      ]
+    },
+    {
+      "tag": "salam alaikum",
+      "patterns": [
+        "assalam-u-alikum",
+        "kya haal hai",
+        "kya hal hai",
+        "kaisay hu",
+        "kaisa hai",
+        "tekh hai",
+        "kese hu",
+        "kese ho",
+        "kese hu tum",
+        "kese ja rha hai sab kuch",
+        "kesa hai",
+        "kesa ja rhaa hai sab kuch",
+        "kesa ja raha hai"
+      ],
+      "responses": [
+        "Mai tekh hu ap kaisay hai ap ki kya madat kar sakta hu ",
+        "ji mai bilkul tekh hu ap ki kya kidmat kar sakta hu",
+        "mai ap ki kya help kar sakta hu"
+      ]
+    },
+    {
+      "tag": "khuda hafiz",
+      "patterns": [
+        "allah hafiz",
+        "ap kay saat baat kar kay acha laga, allah hafiz",
+        "Alwida",
+        "ap kay saat baat kar kay acha laga, alwida"
+      ],
+      "responses": [
+        "wa-alaikum-assalam",
+        "salam",
+        "Bye",
+        "allah hafiz ap say mil kay acha laga"
+      ]
+    },
+    {
+      "tag": "shukria",
+      "patterns": [
+        "shukria",
+        "Shukar",
+        "Bohat Shukriya",
+        "Ty",
+        "TY",
+        "ty",
+        "bohat shukriya"
+      ],
+      "responses": [
+        "koi baat nahi mera farz hai ap ki madad karna"
+      ]
+    },
+    {
+      "tag": "iktyarat",
+      "patterns": [
+        "ap meri kya madat kar saktay hu",
+        "mujay help chaiyay",
+        "meri madat karu",
+        "mai pass gaya hu",
+        "meri help karu",
+        "meri help karo",
+        "meri madat karo"
+      ],
+      "responses": [
+        "Mai ap ki rehnumai kar sakta hu kay Real-Estate kya hai,aur plot,appartment,house ki khareed o farookhat mai ap ki madat kar sakta hu"
+      ]
+    },
+    {
+      "tag": "Location P",
+      "patterns": [
+        "plot kis jaga pay hai",
+        "plot kidar located hai",
+        "plot ki location kya hai",
+        "plot location?",
+        "location plot",
+        "location plot?"
+      ],
+      "responses": [
+        "Plot ka size batay Small(5-15 Marla) Medium(20-50 Marla) Large(4-20 Kanal)"
+      ]
+    },
+    {
+      "tag": "Location A",
+      "patterns": [
+        "appartment kis jaga pay hai",
+        "appartment kidar located hai",
+        "appartment ki location kya hai",
+        "appartment location",
+        "location?"
+      ],
+      "responses": [
+        "Plot ka size batay Small(5-15 Marla) Medium(20-50 Marla) Large(4-20 Kanal)"
+      ]
+    },
+    {
+      "tag": "Location H",
+      "patterns": [
+        "ghar kis jaga pay hai",
+        "ghar kidar located hai",
+        "ghar ki location kya hai",
+        "house ki location",
+        "ghar ki location?"
+      ],
+      "responses": [
+        "Plot ka size batay Small(5-15 Marla) Medium(20-50 Marla) Large(4-20 Kanal)"
+      ]
+    },
+    {
+      "tag": "takriri haseeyat",
+      "patterns": [
+        "kya aj meri appointment hai"
+      ],
+      "responses": [
+        "Ji aj ap ki appointment hai",
+        "Ji nahi aj ap ki koi appointment nahi"
+      ]
+    },
+    {
+      "tag": "mashoor",
+      "patterns": [
+        "sab say zaida biknay wala kon sa product hai",
+        "sab say zaida biknay wala kon sa product hai?",
+        "zaida biknay"
+      ],
+      "responses": [
+        "5 Marla Plot"
+      ]
+    },
+    {
+      "tag": "commission 2",
+      "patterns": [
+        "commission kitna hai tumara",
+        "Commission batau apna",
+        "comission kya hai tumara",
+        "apna commission batau"
+      ],
+      "responses": [
+        "5% say 10%"
+      ]
+    },
+    {
+      "tag": "galat baat",
+      "patterns": [
+        "mai tum say pyaar karta hu",
+        "I love You",
+        "date pay chalu gay",
+        "muj say baat karu",
+        "mai bore hu raha hu",
+        "muj say shadi karu gay",
+        "shadi karu meray saat",
+        "mai tum say pyar karti hu",
+        "i love you so much"
+      ],
+      "responses": [
+        "Muj say real-estate kay baray mai sawal karay"
+      ]
+    },
+    {
+      "tag": "ulti baat",
+      "patterns": [
+        "kya",
+        "mujay samjh nahi ai",
+        "samjh nahi aya",
+        "me",
+        "tum"
+      ],
+      "responses": [
+        "ap kay sawal ki samjh nahi ai sawal ki wazahat karay"
+      ]
+    },
+    {
+      "tag": "naam",
+      "patterns": [
+        "tumara nam kya hai",
+        "tumara nam",
+        "nam batau apna",
+        "tumara name kya hai",
+        "tum nay apna nam nahi bataya",
+        "apna nam tu batau",
+        "mujay apna nam batau"
+      ],
+      "responses": [
+        "mera nam Ava hai ap ki kya kidmat kar sakta hu",
+        "mai Ava hu ap ki kya madat kar sakta hu"
+      ]
+    },
+    {
+      "tag": "mosam",
+      "patterns": [
+        "aj ka mosam kaisa hai",
+        "aj ka weather kaisa hai",
+        "aj ka musam kaisa hai",
+        "aj ka mosam",
+        "aj ka mosum",
+        "mosam",
+        "mosum"
+      ],
+      "responses": [
+        "aj ka weather 17C hai"
+      ]
+    },
+    {
+      "tag": "engineer",
+      "patterns": [
+        "tumay kis nay banaya hai",
+        "tumay design kis nay kia hai",
+        "tumay program kis nay kia hai"
+      ],
+      "responses": [
+        "Mai aik bot hu"
+      ]
+    },
+    {
+      "tag": "gali",
+      "patterns": [
+        "KUTTAY",
+        "chup kar",
+        "bsdk",
+        "barway",
+        "gandu",
+        "teri",
+        "teri ma ki",
+        "teri mai kuss maru",
+        "madar chod"
+      ],
+      "responses": [
+        "......"
+      ]
+    },
+    {
+      "tag": "sargarmi",
+      "patterns": [
+        "tum kya kar rahay hu",
+        "tum kya kartay hu",
+        "tumara kam kya hai",
+        "tumara kam kya hai"
+      ],
+      "responses": [
+        "Mai ap say baat kar raha hu"
+      ]
+    },
+    {
+      "tag": "tareef",
+      "patterns": [
+        "kamal kar dia",
+        "tum best hu",
+        "your the best",
+        "bhai kya baat hai",
+        "tumara kuch aur hi level hai",
+        "kya baat hai tumarai",
+        "level kar dia"
+      ],
+      "responses": [
+        "Buhat Shukria"
+      ]
+    },
+    {
+      "tag": "kubsurat",
+      "patterns": [
+        "tum say baat kar kay acha laga",
+        "tum achi batay kartay hu"
+      ],
+      "responses": [
+        "Shukria ap say bhi baat kar kay acha laga insallah hum dubara milay gay"
+      ]
+    },
+    {
+      "tag": "nahi",
+      "patterns": [
+        "nahi",
+        "aby yaar nahi",
+        "nahi yaar"
+      ],
+      "responses": [
+        "oh sorry"
+      ]
+    },
+    {
+      "tag": "khabar",
+      "patterns": [
+        "Khabray",
+        "mujay halat ka batau",
+        "Mujay mulk kay halat ka batau"
+      ],
+      "responses": [
+        "Pakistan is the best country",
+        "........."
+      ]
+    },
+    {
+      "tag": "sport",
+      "patterns": [
+        "mujay cricket kay baray mai batau",
+        "cricket kay baray mai maloomat du mujay",
+        "latest cricket match",
+        "kaal match dekha",
+        "kya tum match dekhtay hu"
+      ],
+      "responses": [
+        "...",
+        "Mai aik Bot hu mai cricket nahi kailta hu na dekhta hu"
+      ]
+    },
+    {
+      "tag": "Gana",
+      "patterns": [
+        "top 10 ganay",
+        "ganay",
+        "top 10 ganay",
+        "classical ganay"
+      ],
+      "responses": [
+        "...",
+        "mujay qawali buhat pasand hai"
+      ]
+    },
+    {
+      "tag": "achi baat",
+      "patterns": [
+        "mai tekh hu",
+        "tekh hu",
+        "mai bilkul fit",
+        "fit fat",
+        "fit"
+      ],
+      "responses": [
+        "sun kar acha laga"
+      ]
+    },
+    {
+      "tag": "sun",
+      "patterns": [
+        "tum kitnay saal kay hu",
+        "kya umar hai tumari",
+        "tumara sun kya hai",
+        "tumari age kya hai",
+        "tumhari age kya hai",
+        "sun",
+        "umar"
+      ],
+      "responses": [
+        "mai 2022 mai banaya gaya hu aur mera nam Ava hai",
+        "mera sun 2022 hai mera nam Ava hai"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the plot",
+        "Location of plot",
+        "where plots are available"
+      ],
+      "responses": [
+        "Plots are available in Blue Area Islamabd",
+        "Plots are available in Chack Shahzad Islamabad",
+        "PLots available in Lohore"
+      ]
+    },
+    {
+      "tag": "FAQs 1",
+      "patterns": [
+        "How many homes, on average, do you sell each year?",
+        "How many homes you sell",
+        "how many houses you sell",
+        "house selling",
+        "home selling",
+        "selling"
+      ],
+      "responses": [
+        "I sell an average of 50 homes each year, including mid-range and luxury homes. We have experience selling in this market to new and growing families and am very familiar with the neighborhoods in the area. We use our expert knowledge to make homebuyers feel comfortable and confident during their search."
+      ]
+    },
+    {
+      "tag": "FAQs 2",
+      "patterns": [
+        "How do you use the internet and social media to sell homes?",
+        "what do you use to sell",
+        "what steps you take to sell your houses",
+        "do you use social media?",
+        "Do you use instagram or facebook?",
+        "Do you use insta for advertisement?",
+        "do you use facebook for advertisement?",
+        "do you use fb or insta for promotion",
+        "what do you do for promotion?",
+        "socail media",
+        "insta and facebook",
+        "instagram",
+        "facebook"
+      ],
+      "responses": [
+        "We use our website, Facebook and Instagram to sell our homes. To ensure the homes look beautiful online, I always hire professional photographers to take photos of the houses."
+      ]
+    },
+    {
+      "tag": "FAQs 3",
+      "patterns": [
+        "How do you stay organized to make sure you make every appointment and are always on time? ",
+        "How do you stay organized",
+        "how you manage your time",
+        "organized"
+      ],
+      "responses": [
+        "We use multiple methods to stay organized during the week, such as using a calendar. We sync our computers to our phones and set reminders to go off 30 minutes before we need to leave for an appointment. "
+      ]
+    },
+    {
+      "tag": "FAQs 4",
+      "patterns": [
+        "What is the hardest part of keeping your clients focused on home tours?",
+        "Do you do home tours",
+        "what about home tours",
+        "will i get a home tour",
+        "home tour"
+      ],
+      "responses": [
+        "We let the client look at the different rooms on their own for a few minutes and then ask them to come back to us so we can show them features that we know they will love. This technique allows us to have a better chance of selling the house when we save the best parts until the end. "
+      ]
+    },
+    {
+      "tag": "FAQs 5",
+      "patterns": [
+        "What qualities make you a good real estate agent?",
+        "qualities",
+        "are you a good real estate agent",
+        "real estate agent",
+        "what quality does your agents have?"
+      ],
+      "responses": [
+        "Not only do we listen to all of our clients, but we take the extra step by looking at the homes on our own first. When we do a quick walkthrough of the potential houses, We can spot details they may like, increasing the chances of our client liking the home. For example, We may notice the master bedroom has a walk-in closet, which the client said was important. I feel that my active listening and empathy skills allow me to select the best listing to streamline the search. "
+      ]
+    },
+    {
+      "tag": "FAQs 6",
+      "patterns": [
+        "What questions do you ask clients to make sure their needs are met?",
+        "what questions you ask to clients",
+        "how you satisfy customer needs",
+        "do you satisfy customer needs"
+      ],
+      "responses": [
+        "We typically begin a client relationship by having them fill out a general survey to collect necessary information, such as budget, location, number of bedrooms and bathrooms, home size, family size and many others. This process takes just a few minutes for clients and we use it to guide our initial conversation to further refine their listing options "
+      ]
+    },
+    {
+      "tag": "FAQs 7",
+      "patterns": [
+        "Tell Me About a Time You Had Difficulty Forming a Good Relationship With a Client",
+        "difficult time with client",
+        "bad customers",
+        "bad realtionship with client",
+        "do you have bad customers",
+        "Have you encountered bad customers"
+      ],
+      "responses": [
+        "It is common for buyers to have a long list of wants that cant be satisfied with a limited budget. I learned that the situation is easier when they come to that realization themselves, rather than being told they cant have what they want. "
+      ]
+    },
+    {
+      "tag": "FAQs 8",
+      "patterns": [
+        "How Much Time Are You Willing to Put in Each Week?",
+        "how much time you put in",
+        "how much you work"
+      ],
+      "responses": [
+        " Real estate is not just a job it is our passion. We do whatever it takes to help our clients and easily work around their schedules. We currently work an average of 55 hours a week."
+      ]
+    },
+    {
+      "tag": "FAQs 9",
+      "patterns": [
+        "How should I prepare my house before selling it?",
+        "What should I prepare before selling my house",
+        "What do I have to do before selling my house",
+        "what steps I need to take to sell my house"
+      ],
+      "responses": [
+        "First impressions matter in business, but especially in real estate. Anyone walking through a house or touring it virtually will be looking for ways to pass or negotiate down on the price. You must help clients make sure that the HVAC, plumbing, and electrical system all work properly. Each room should look clean and decluttered with no overt damage insight."
+      ]
+    },
+    {
+      "tag": "FAQs 10",
+      "patterns": [
+        "Should I order a home inspection?",
+        "home inspection"
+      ],
+      "responses": [
+        "Getting a pre-sale home inspected is never a bad idea, especially to get your client the best price for their home. Some homebuyers will feel uncomfortable purchasing a house without seeing a home inspection. Many will often hire their own inspector. It is better to be safe than sorry."
+      ]
+    },
+    {
+      "tag": "FAQs 11",
+      "patterns": [
+        "How long will it take to sell my home?",
+        "how long will it take to sell my house?",
+        "how long will it take to sell my home",
+        "how long will it take to sell my house"
+      ],
+      "responses": [
+        "Once the house is on the market, it may take anywhere from four to six weeks to sell. However, if the market is fairly hot, a seller could see their house off the market within a week. On the flip side, if there is a lull in the market or issues arise such as negotiation, lack of exposure, or house conditions then the property can sit on the market for months."
+      ]
+    },
+    {
+      "tag": "FAQs 12",
+      "patterns": [
+        "What is the selling price of my home?",
+        "what is the selling price of my home",
+        "my home selling price?",
+        "selling price of my home",
+        "selling price of my house",
+        "selling price"
+      ],
+      "responses": [
+        "The selling price of a house fluctuates depending on multiple factors. The most common ones are the neighborhood and what similar-sized houses are currently selling for. Also, look at the age and condition. Do major repairs need to be done? If so, that might lower the property. And again, the market matters. Like everything else, home prices vary depending on supply and demand. Your job as a realtor is to best inform your clients about these different factors and accurately list their house."
+      ]
+    },
+    {
+      "tag": "FAQs 13",
+      "patterns": [
+        "Are real estate prices negotiable?",
+        "Are prices negotiable",
+        "Is there any negotiation in prices",
+        "are real estate prices negotiable",
+        "are prices negotiable",
+        "negotiation"
+      ],
+      "responses": [
+        "Yes, almost everything in real estate is negotiable. Typically, there is a difference between a home’s list price and how much it actually sells for. The current market’s saturation will determine how much wiggle room there is for negotiation. If you’re on the buyer’s side, expect the house to be able to be purchased for less if there is a lower demand than supply in the market. Vice versa, if you’re on the seller’s side expect it to usually sell for less. That being said, you never know who else is house hunting. Sometimes people will swoop in and offer the exact asking price."
+      ]
+    },
+    {
+      "tag": "FAQs 14",
+      "patterns": [
+        "Should I sell my current property before buying a new one?",
+        "what do you suggest in terms of selling my current property before buying a new one?",
+        "Should I sell my current property before buying a new one",
+        "what do you suggest in terms of selling my current property before buying a new one",
+        "selling my current property before buying new one"
+      ],
+      "responses": [
+        "This is a tricky question, and the answer primarily depends on one’s funds and ability to find temporary housing. If a client needs more equity to purchase a new home or meet a mortgage plan, then it is best to sell one’s current home before purchasing their next one. That being said, they will most likely need temporary housing at a friend or relatives, or by arranging a short-term rental elsewhere."
+      ]
+    },
+    {
+      "tag": "FAQs 15",
+      "patterns": [
+        "Should I do a final walk-through?"
+      ],
+      "responses": [
+        "A final walk-through is not required but highly recommended. Final walk-throughs give buyers a chance to make sure nothing has changed since their initial inspection or previous visits. Also, if repairs were requested as part of the sale offer then a follow-up visit ensures all repairs are done according to the agreement and contract."
+      ]
+    },
+    {
+      "tag": "FAQs 16",
+      "patterns": [
+        "Comission kya ha ","comission kitna hota ha"
+      ],
+      "responses": [
+        "Commisoion prperty ki price k mutabik hota ha "
+      ]
+    },
+    {
+      "tag": "FAQs 17",
+      "patterns": [
+        "Mortgagae Kya ha? ",
+        "mortgage kya hai",
+        "mortage kay baray mai batau"
+      ],
+      "responses": [
+        "aik rahan qaraz kee aik qasam he joe haghighi jayedad kee taraf se mahfooz he. rehaishi aur tejarati rahan donon mojud henni khatrey kee khususiat ke saath joe har aik ke laye munfarid hain. rahan main qaraz lene kee digar aqsam ke muqable main ziyadah sazgar sharayat (lambi takhfif ، ailee ele tee wee ، aur kom sod kee sharh) hoti henni "
+      ]
+    },
+    {
+      "tag": "FAQs 18",
+      "patterns": [
+        " What is mortgage ","mortage","motegage"
+      ],
+      "responses": [
+        " A mortgage is a type of loan secured by real property. There are both residential and commercial mortgages, with risk characteristics that are unique to each. Mortgages tend to have more favorable terms (longer amortization, higher LTV, and lower interest rates) than other types of borrowing. "
+      ]
+    },
+    {
+      "tag": "FAQs 19",
+      "patterns": [
+        " Plot kese kharaidain  ", "property kese buy krte hain"
+      ],
+      "responses": [
+        "apny budget k mutabik property pasand krain or dealer se rabta karain "
+      ]
+    },
+    {
+      "tag": "FAQs 20",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 21",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 22",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 23",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 24",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 25",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 26",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 27",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 28",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 29",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 30",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 31",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 32",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 33",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs34",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 35",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 36",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 37",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 38",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 39",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "FAQs 40",
+      "patterns": [
+        " "
+      ],
+      "responses": [
+        " "
+      ]
+    }
+  ]
+}
